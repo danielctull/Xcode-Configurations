@@ -1,0 +1,8 @@
+
+WRAPPER_EXTENSION = app
+
+// Linking
+OTHER_LDFLAGS = $(inherited) -ObjC
+
+// Packaging 
+INFOPLIST_FILE  = $(PRODUCT_NAME)/Info.plist
