@@ -6,3 +6,7 @@ OTHER_LDFLAGS = $(inherited) -ObjC
 
 // Packaging 
 INFOPLIST_FILE  = $(PRODUCT_NAME)/Info.plist
+
+// Asset Catalog Compiler - Options
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
+ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage
