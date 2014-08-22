@@ -1,7 +1,9 @@
 
-SKIP_INSTALL = YES
 IPHONEOS_DEPLOYMENT_TARGET = 8.0
+
+// Deployment
 INSTALL_PATH = $(LOCAL_LIBRARY_DIR)/Frameworks
+SKIP_INSTALL = YES
 
 // Versioning
 VERSIONING_SYSTEM = apple-generic
