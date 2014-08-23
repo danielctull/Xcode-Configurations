@@ -12,7 +12,6 @@ PRODUCT_NAME = $(TARGET_NAME)
 WARNING_CFLAGS = $(inherited) -Weverything -Wno-objc-missing-property-synthesis -Wno-gnu -Wno-incomplete-module
 
 // Deployment
-IPHONEOS_DEPLOYMENT_TARGET = 7.0
 TARGETED_DEVICE_FAMILY = 1,2
 
 // Search Paths 
