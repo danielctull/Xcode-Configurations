@@ -1,7 +1,0 @@
-
-SKIP_INSTALL = YES
-WRAPPER_EXTENSION = bundle
-INSTALL_PATH = $(LOCAL_LIBRARY_DIR)/Bundles
-
-// Packaging 
-INFOPLIST_FILE  = $(PRODUCT_NAME) Bundle/Info.plist

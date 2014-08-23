@@ -1,0 +1,8 @@
+
+// Architectures
+SDKROOT = iphoneos
+SUPPORTED_PLATFORMS = iphoneos iphonesimulator
+VALID_ARCHS = arm64 armv7 armv7s
+
+// Deployment
+SKIP_INSTALL = YES

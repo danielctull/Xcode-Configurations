@@ -1,18 +1,12 @@
 
-// Architectures
-ARCHS = $(ARCHS_STANDARD)
-VALID_ARCHS = arm64 armv7 armv7s
-SDKROOT = iphoneos
-SUPPORTED_PLATFORMS = iphoneos iphonesimulator
-
-// Packaging
-PRODUCT_NAME = $(TARGET_NAME)
-
 // Linking
 WARNING_CFLAGS = $(inherited) -Weverything -Wno-objc-missing-property-synthesis -Wno-gnu -Wno-incomplete-module
 
 // Deployment
 TARGETED_DEVICE_FAMILY = 1,2
+
+// Packaging
+PRODUCT_NAME = $(TARGET_NAME)
 
 // Search Paths 
 ALWAYS_SEARCH_USER_PATHS = NO
