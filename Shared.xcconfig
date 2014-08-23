@@ -9,7 +9,7 @@ SUPPORTED_PLATFORMS = iphoneos iphonesimulator
 PRODUCT_NAME = $(TARGET_NAME)
 
 // Linking
-WARNING_CFLAGS = $(inherited) -Weverything -Wno-objc-missing-property-synthesis -Wno-gnu
+WARNING_CFLAGS = $(inherited) -Weverything -Wno-objc-missing-property-synthesis -Wno-gnu -Wno-incomplete-module
 
 // Deployment
 IPHONEOS_DEPLOYMENT_TARGET = 7.0
