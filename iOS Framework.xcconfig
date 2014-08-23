@@ -22,4 +22,8 @@ LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/Frameworks @loader_path/
 INFOPLIST_FILE  = $(PRODUCT_NAME)/Info.plist
 DEFINES_MODULE = YES
 
+// Preprocessing
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) FRAMEWORK=1
+
 WARNING_CFLAGS = $(inherited) -Wno-missing-variable-declarations
+
