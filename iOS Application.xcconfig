@@ -5,6 +5,7 @@ SUPPORTED_PLATFORMS = iphoneos iphonesimulator
 VALID_ARCHS = arm64 armv7 armv7s
 
 // Linking
+LD_RUNPATH_SEARCH_PATHS = @executable_path/Frameworks
 OTHER_LDFLAGS = $(inherited) -ObjC
 
 // Packaging 
