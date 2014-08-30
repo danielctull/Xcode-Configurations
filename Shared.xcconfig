@@ -1,4 +1,8 @@
 
+// Architectures
+SDKROOT = iphoneos
+// Setting this at the project level prevents the build products from not being found (being red in the source list)
+
 // Linking
 WARNING_CFLAGS = $(inherited) -Weverything -Wno-objc-missing-property-synthesis -Wno-gnu -Wno-incomplete-module
 
