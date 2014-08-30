@@ -17,7 +17,6 @@ COPY_PHASE_STRIP = YES
 
 // Code Generation
 GCC_OPTIMIZATION_LEVEL = s
-GCC_SYMBOLS_PRIVATE_EXTERN = YES
 
 // Code Signing
 CODE_SIGN_IDENTITY = iPhone Distribution

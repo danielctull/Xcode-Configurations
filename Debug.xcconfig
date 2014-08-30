@@ -16,7 +16,6 @@ COPY_PHASE_STRIP = NO
 
 // Code Generation
 GCC_OPTIMIZATION_LEVEL = 0
-GCC_SYMBOLS_PRIVATE_EXTERN = NO
 
 // Code Signing
 CODE_SIGN_IDENTITY = iPhone Developer
