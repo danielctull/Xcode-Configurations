@@ -22,9 +22,6 @@ GCC_OPTIMIZATION_LEVEL = 0
 // Code Signing
 CODE_SIGN_IDENTITY = iPhone Developer
 
-// Deployment
-COPY_PHASE_STRIP = NO
-
 // LLVM
 ENABLE_NS_ASSERTIONS = YES
 
