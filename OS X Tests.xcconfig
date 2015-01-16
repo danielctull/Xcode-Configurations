@@ -5,7 +5,7 @@ SUPPORTED_PLATFORMS = macosx
 VALID_ARCHS = i386 x86_64
 
 // Linking
-LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/../Frameworks @loader_path/Frameworks
+LD_RUNPATH_SEARCH_PATHS = $(inherited) @executable_path/../Frameworks @loader_path/../Frameworks
 OTHER_LDFLAGS = $(inherited) -framework XCTest -ObjC
 WARNING_CFLAGS = $(inherited) -Wno-gnu -Wno-variadic-macros -Wno-auto-import -Wno-objc-interface-ivars -Wno-incomplete-module -Wno-documentation-unknown-command
 
