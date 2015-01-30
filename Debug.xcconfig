@@ -26,6 +26,9 @@ CODE_SIGN_IDENTITY[sdk=macosx*] = Mac Developer
 // LLVM
 ENABLE_NS_ASSERTIONS = YES
 
+// Swift Compiler - Code Generation
+SWIFT_OPTIMIZATION_LEVEL = -Onone
+
 // User Defined 
 METAL_ENABLE_DEBUG_INFO = YES
 MTL_ENABLE_DEBUG_INFO = YES
