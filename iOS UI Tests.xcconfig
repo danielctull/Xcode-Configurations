@@ -1,0 +1,5 @@
+
+#include "iOS Tests.xcconfig"
+
+// UI Testing
+USES_XCTRUNNER = YES
