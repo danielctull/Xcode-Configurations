@@ -23,6 +23,7 @@ GCC_OPTIMIZATION_LEVEL = 0
 // Code Signing
 CODE_SIGN_IDENTITY[sdk=iphoneos*] = iPhone Developer
 CODE_SIGN_IDENTITY[sdk=macosx*] = Mac Developer
+CODE_SIGN_IDENTITY[sdk=appletvos*] = iPhone Developer
 
 // LLVM
 ENABLE_NS_ASSERTIONS = YES
