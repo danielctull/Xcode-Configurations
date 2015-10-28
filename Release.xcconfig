@@ -24,6 +24,7 @@ GCC_OPTIMIZATION_LEVEL = s
 CODE_SIGN_IDENTITY[sdk=iphoneos*] = iPhone Distribution
 CODE_SIGN_IDENTITY[sdk=macosx*] = Mac Distribution
 CODE_SIGN_IDENTITY[sdk=appletvos*] = iPhone Distribution
+CODE_SIGN_IDENTITY[sdk=watchos*] = iPhone Distribution
 
 // Deployment
 COPY_PHASE_STRIP = YES
