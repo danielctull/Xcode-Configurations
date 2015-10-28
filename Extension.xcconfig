@@ -1,0 +1,8 @@
+
+#include "Framework.xcconfig"
+
+// Deployment
+INSTALL_PATH
+
+// Preprocessing
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) EXTENSION=1

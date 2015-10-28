@@ -1,0 +1,5 @@
+
+// Architectures
+SDKROOT = appletvos
+SUPPORTED_PLATFORMS = appletvos appletvsimulator
+//VALID_ARCHS = arm64

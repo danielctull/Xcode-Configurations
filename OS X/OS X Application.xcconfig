@@ -1,0 +1,6 @@
+
+#include "OS X.xcconfig"
+#include "../Framework.xcconfig"
+
+// Asset Catalog Compiler - Options
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon

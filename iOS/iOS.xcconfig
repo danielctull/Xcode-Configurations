@@ -4,8 +4,4 @@ SDKROOT = iphoneos
 SUPPORTED_PLATFORMS = iphoneos iphonesimulator
 VALID_ARCHS = arm64 armv7 armv7s
 
-// Deployment
-SKIP_INSTALL = YES
-
-// Preprocessing
-GCC_PREPROCESSOR_DEFINITIONS = $(inherited) LIBRARY=1
+TARGETED_DEVICE_FAMILY = 1,2

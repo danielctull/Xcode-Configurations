@@ -1,0 +1,8 @@
+
+// Architectures
+SDKROOT = macosx
+SUPPORTED_PLATFORMS = macosx
+VALID_ARCHS = i386 x86_64
+
+// Deployment
+COMBINE_HIDPI_IMAGES = YES

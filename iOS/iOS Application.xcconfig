@@ -1,0 +1,6 @@
+
+#include "iOS.xcconfig"
+#include "../Application.xcconfig"
+
+// Asset Catalog Compiler - Options
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon

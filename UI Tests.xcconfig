@@ -1,0 +1,8 @@
+
+#include "Tests.xcconfig"
+
+// Preprocessing
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) UITESTS=1
+
+// UI Testing
+USES_XCTRUNNER = YES

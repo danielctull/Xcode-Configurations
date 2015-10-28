@@ -1,8 +1,5 @@
 
-// Architectures
-SDKROOT = iphoneos
-SUPPORTED_PLATFORMS = iphoneos iphonesimulator
-VALID_ARCHS = arm64 armv7 armv7s
+#include "iOS.xcconfig"
 
 // Deployment
 INSTALL_PATH = $(LOCAL_LIBRARY_DIR)/Bundles
@@ -10,4 +7,3 @@ SKIP_INSTALL = YES
 
 // Packaging
 INFOPLIST_FILE  = $(PRODUCT_NAME) Bundle/Info.plist
-WRAPPER_EXTENSION = bundle

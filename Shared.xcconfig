@@ -6,9 +6,6 @@ SDKROOT = iphoneos
 // Linking
 WARNING_CFLAGS = $(inherited) -Weverything -Wno-objc-missing-property-synthesis -Wno-gnu -Wno-incomplete-module -Rno-module-build -Wno-cstring-format-directive
 
-// Deployment
-TARGETED_DEVICE_FAMILY = 1,2
-
 // Packaging
 PRODUCT_NAME = $(TARGET_NAME)
 
@@ -34,6 +31,7 @@ CLANG_WARN_ENUM_CONVERSION = YES
 CLANG_WARN_INT_CONVERSION = YES
 CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR
 CLANG_WARN__DUPLICATE_METHOD_MATCH = YES
+CLANG_WARN_UNREACHABLE_CODE = YES
 
 GCC_WARN_64_TO_32_BIT_CONVERSION = YES
 GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR

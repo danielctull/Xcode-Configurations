@@ -1,0 +1,8 @@
+
+#include "iOS.xcconfig"
+
+// Deployment
+SKIP_INSTALL = YES
+
+// Preprocessing
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) LIBRARY=1
