@@ -1,6 +1,4 @@
 
-#include "Version.xcconfig"
-
 // Architectures
 SDKROOT = iphoneos
 // Setting this at the project level prevents the build products from not being found (being red in the source list)
@@ -10,6 +8,9 @@ WARNING_CFLAGS = $(inherited) -Weverything -Wno-objc-missing-property-synthesis 
 
 // Packaging
 PRODUCT_NAME = $(TARGET_NAME)
+
+// Versioning
+CURRENT_PROJECT_VERSION = 1
 
 // Search Paths 
 ALWAYS_SEARCH_USER_PATHS = NO

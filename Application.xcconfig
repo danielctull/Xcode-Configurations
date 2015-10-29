@@ -1,4 +1,6 @@
 
+#include "Version.xcconfig"
+
 // Linking
 OTHER_LDFLAGS = $(inherited) -ObjC
 
