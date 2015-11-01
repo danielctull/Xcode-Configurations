@@ -3,6 +3,9 @@
 SDKROOT = iphoneos
 // Setting this at the project level prevents the build products from not being found (being red in the source list)
 
+// Deployment
+COPY_PHASE_STRIP = NO
+
 // Linking
 WARNING_CFLAGS = $(inherited) -Weverything -Wno-objc-missing-property-synthesis -Wno-gnu -Wno-incomplete-module -Rno-module-build -Wno-cstring-format-directive
 
