@@ -3,6 +3,12 @@
 SDKROOT = iphoneos
 // Setting this at the project level prevents the build products from not being found (being red in the source list)
 
+// Code Signing
+CODE_SIGN_IDENTITY[sdk=iphoneos*] = iPhone Developer
+CODE_SIGN_IDENTITY[sdk=macosx*] = Mac Developer
+CODE_SIGN_IDENTITY[sdk=appletvos*] = iPhone Developer
+CODE_SIGN_IDENTITY[sdk=watchos*] = iPhone Developer
+
 // Deployment
 COPY_PHASE_STRIP = NO
 

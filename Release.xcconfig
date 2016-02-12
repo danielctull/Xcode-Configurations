@@ -15,12 +15,6 @@ DEBUG_INFORMATION_FORMAT = dwarf-with-dsym
 // Code Generation
 GCC_OPTIMIZATION_LEVEL = s
 
-// Code Signing
-CODE_SIGN_IDENTITY[sdk=iphoneos*] = iPhone Distribution
-CODE_SIGN_IDENTITY[sdk=macosx*] = Mac Distribution
-CODE_SIGN_IDENTITY[sdk=appletvos*] = iPhone Distribution
-CODE_SIGN_IDENTITY[sdk=watchos*] = iPhone Distribution
-
 // LLVM
 ENABLE_NS_ASSERTIONS = NO
 
