@@ -2,6 +2,9 @@
 // Build Options
 APPLICATION_EXTENSION_API_ONLY = YES
 
+// Code Signing
+CODE_SIGN_IDENTITY =
+
 // Deployment
 INSTALL_PATH = $(LOCAL_LIBRARY_DIR)/Frameworks
 SKIP_INSTALL = YES
