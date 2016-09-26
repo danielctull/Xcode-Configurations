@@ -18,6 +18,9 @@ GCC_OPTIMIZATION_LEVEL = s
 // LLVM
 ENABLE_NS_ASSERTIONS = NO
 
+// Swift Compiler - Code Generation
+SWIFT_OPTIMIZATION_LEVEL = -Owholemodule
+
 // Swift Compiler - Custom Flags
 OTHER_SWIFT_FLAGS = -D RELEASE
 
