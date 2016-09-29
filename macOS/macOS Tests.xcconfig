@@ -1,5 +1,5 @@
 
-#include "OS X.xcconfig"
+#include "macOS.xcconfig"
 #include "../Tests.xcconfig"
 
 // Linking

@@ -1,5 +1,5 @@
 
-#include "OS X.xcconfig"
+#include "macOS.xcconfig"
 #include "../Framework.xcconfig"
 
 // Linking
