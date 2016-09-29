@@ -1,4 +1,6 @@
 
+#include? "Version.xcconfig"
+
 // Architectures
 SDKROOT = iphoneos
 // Setting this at the project level prevents the build products from not being found (being red in the source list)
