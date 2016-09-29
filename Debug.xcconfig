@@ -1,5 +1,5 @@
 
-#include "Shared.xcconfig"
+#include "Shared/Shared.xcconfig"
 
 // Architectures
 ONLY_ACTIVE_ARCH = YES
