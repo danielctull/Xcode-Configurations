@@ -1,6 +1,6 @@
 
 #include "watchOS.xcconfig"
-#include "../Application.xcconfig"
+#include "../Shared/Shared Application.xcconfig"
 
 // Asset Catalog Compiler - Options
 ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon

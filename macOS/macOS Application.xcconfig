@@ -1,6 +1,6 @@
 
 #include "macOS.xcconfig"
-#include "../Framework.xcconfig"
+#include "../Shared/Shared Application.xcconfig"
 
 // Linking
 LD_RUNPATH_SEARCH_PATHS = @executable_path/../Frameworks
