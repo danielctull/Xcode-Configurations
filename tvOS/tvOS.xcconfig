@@ -3,3 +3,5 @@
 SDKROOT = appletvos
 SUPPORTED_PLATFORMS = appletvos appletvsimulator
 //VALID_ARCHS = arm64
+
+TARGETED_DEVICE_FAMILY = 3
