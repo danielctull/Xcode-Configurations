@@ -1,5 +1,5 @@
 
-#include? "Version.xcconfig"
+#include? "../Version.xcconfig"
 
 // Architectures
 SDKROOT = iphoneos
