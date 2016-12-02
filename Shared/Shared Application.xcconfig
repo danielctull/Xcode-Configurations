@@ -1,8 +1,12 @@
 
+// Build Options
+ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+
 // Linking
 OTHER_LDFLAGS = $(inherited) -ObjC
 
 // Packaging 
+DEFINES_MODULE = YES
 INFOPLIST_FILE  = $(PRODUCT_NAME)/Info.plist
 
 // Preprocessing
