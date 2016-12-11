@@ -22,7 +22,7 @@ ENABLE_NS_ASSERTIONS = YES
 SWIFT_OPTIMIZATION_LEVEL = -Onone
 
 // Swift Compiler - Custom Flags
-OTHER_SWIFT_FLAGS = -D DEBUG -Xfrontend -warn-long-function-bodies=100
+OTHER_SWIFT_FLAGS = -D DEBUG
 
 // User Defined 
 METAL_ENABLE_DEBUG_INFO = YES
