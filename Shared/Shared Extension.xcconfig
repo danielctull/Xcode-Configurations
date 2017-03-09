@@ -1,8 +1,24 @@
 
-#include "Framework.xcconfig"
+// Build Options
+APPLICATION_EXTENSION_API_ONLY = YES
 
 // Deployment
-INSTALL_PATH
+INSTALL_PATH = $(LOCAL_LIBRARY_DIR)/Frameworks
+SKIP_INSTALL = YES
+
+// Versioning
+VERSIONING_SYSTEM = apple-generic
+
+// Linking
+DYLIB_INSTALL_NAME_BASE = @rpath
+
+// Packaging
+DEFINES_MODULE = YES
+INFOPLIST_FILE  = $(PRODUCT_NAME)/Info.plist
 
 // Preprocessing
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) EXTENSION=1
+
+// Custom Compiler Flags
+WARNING_CFLAGS = $(inherited) -Wno-missing-variable-declarations
+
