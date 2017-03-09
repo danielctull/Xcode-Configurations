@@ -2,6 +2,5 @@
 // Architectures
 SDKROOT = watchos
 SUPPORTED_PLATFORMS = watchsimulator watchos
-VALID_ARCHS = armv7k
 
 TARGETED_DEVICE_FAMILY = 4
