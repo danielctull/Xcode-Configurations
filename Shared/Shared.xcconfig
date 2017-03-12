@@ -20,6 +20,11 @@ WARNING_CFLAGS = $(inherited) -Weverything -Wno-objc-missing-property-synthesis 
 // Packaging
 PRODUCT_NAME = $(TARGET_NAME)
 
+// Forces the info.plist to refresh when using project settings.
+// Useful when using a build setting that refreshes regularly, like
+// the CURRENT_PROJECT_VERSION defined by the version generation script.
+INFOPLIST_PREPROCESS = YES
+
 // Search Paths 
 ALWAYS_SEARCH_USER_PATHS = NO
 
