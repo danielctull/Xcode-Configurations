@@ -7,7 +7,7 @@ OTHER_LDFLAGS = $(inherited) -ObjC
 
 // Packaging 
 DEFINES_MODULE = YES
-INFOPLIST_FILE  = $(PRODUCT_NAME)/Info.plist
+INFOPLIST_FILE  = $(TARGET_NAME)/Info.plist
 
 // Preprocessing
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) APPLICATION=1
