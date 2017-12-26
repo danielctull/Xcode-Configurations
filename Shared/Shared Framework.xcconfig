@@ -14,7 +14,7 @@ DYLIB_INSTALL_NAME_BASE = @rpath
 
 // Packaging 
 DEFINES_MODULE = YES
-INFOPLIST_FILE  = $(PRODUCT_NAME)/Info.plist
+INFOPLIST_FILE  = Configurations/Shared/Shared Framework.plist
 
 // Preprocessing
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) FRAMEWORK=1

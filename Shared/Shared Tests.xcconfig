@@ -4,7 +4,7 @@ OTHER_LDFLAGS = $(inherited) -framework XCTest -ObjC
 WARNING_CFLAGS = $(inherited) -Wno-gnu -Wno-variadic-macros -Wno-auto-import -Wno-objc-interface-ivars -Wno-incomplete-module -Wno-documentation-unknown-command -Wno-reserved-id-macro
 
 // Packaging
-INFOPLIST_FILE  = $(PRODUCT_NAME)/Info.plist
+INFOPLIST_FILE  = Configurations/Shared/Shared Tests.plist
 
 // Preprocessing
 GCC_PREPROCESSOR_DEFINITIONS = $(inherited) TESTS=1
