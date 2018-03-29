@@ -19,6 +19,7 @@ GCC_OPTIMIZATION_LEVEL = 0
 ENABLE_NS_ASSERTIONS = YES
 
 // Swift Compiler - Code Generation
+SWIFT_COMPILATION_MODE = singlefile
 SWIFT_OPTIMIZATION_LEVEL = -Onone
 
 // Swift Compiler - Custom Flags
