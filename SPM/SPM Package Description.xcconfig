@@ -1,0 +1,12 @@
+
+#include "../macOS/macOS.xcconfig"
+#include "../Shared/Shared Framework.xcconfig"
+
+// Packaging
+DEFINES_MODULE = false
+
+// Swift Compiler
+OTHER_SWIFT_FLAGS = -swift-version 4 -I $(TOOLCHAIN_DIR)/usr/lib/swift/pm/4
+
+// User-Defined
+LD = /usr/bin/true
