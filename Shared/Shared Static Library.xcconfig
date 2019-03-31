@@ -1,0 +1,11 @@
+
+#include "../Shared/Shared.xcconfig"
+
+// Deployment
+SKIP_INSTALL = YES
+
+// Preprocessing
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) LIBRARY=1
+
+// Packaging
+EXECUTABLE_PREFIX = lib
