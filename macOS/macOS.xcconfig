@@ -4,5 +4,8 @@ SDKROOT = macosx
 SUPPORTED_PLATFORMS = macosx
 VALID_ARCHS = i386 x86_64
 
+// Code Signing
+CODE_SIGN_IDENTITY = -
+
 // Deployment
 COMBINE_HIDPI_IMAGES = YES
