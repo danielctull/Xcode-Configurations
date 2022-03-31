@@ -2,7 +2,5 @@
 // Architectures
 SDKROOT = iphoneos
 SUPPORTED_PLATFORMS = iphoneos iphonesimulator
-VALID_ARCHS[sdk=iphonesimulator*] = i386 x86_64
-VALID_ARCHS[sdk=iphoneos*] = arm64 armv7 armv7s
 
 TARGETED_DEVICE_FAMILY = 1,2

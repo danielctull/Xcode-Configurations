@@ -2,7 +2,5 @@
 // Architectures
 SDKROOT = appletvos
 SUPPORTED_PLATFORMS = appletvos appletvsimulator
-VALID_ARCHS[sdk=appletvsimulator*] = i386 x86_64
-VALID_ARCHS[sdk=appletvos*] = arm64
 
 TARGETED_DEVICE_FAMILY = 3
