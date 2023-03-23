@@ -1,6 +1,7 @@
 
 // Build Options
 ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES
+ENABLE_PREVIEWS = YES
 
 // Linking
 OTHER_LDFLAGS = $(inherited) -ObjC

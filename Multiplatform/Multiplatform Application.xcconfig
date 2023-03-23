@@ -3,9 +3,6 @@
 #include "Infoplist.xcconfig"
 #include "../Shared/Shared Application.xcconfig"
 
-// Build Options
-ENABLE_PREVIEWS = YES
-
 // Linking
 LD_RUNPATH_SEARCH_PATHS = @executable_path/Frameworks
 LD_RUNPATH_SEARCH_PATHS[sdk=macosx*] = @executable_path/../Frameworks
