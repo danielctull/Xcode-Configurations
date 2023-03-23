@@ -1,0 +1,10 @@
+
+// Architectures
+SDKROOT = auto
+SUPPORTED_PLATFORMS = iphoneos iphonesimulator macosx
+
+// Linking
+DEAD_CODE_STRIPPING = YES
+
+// User-Defined
+TARGETED_DEVICE_FAMILY = 1,2

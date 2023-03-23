@@ -1,0 +1,19 @@
+
+#include "Multiplatform.xcconfig"
+#include "Infoplist.xcconfig"
+#include "../Shared/Shared Application.xcconfig"
+
+// Build Options
+ENABLE_PREVIEWS = YES
+
+// Linking
+LD_RUNPATH_SEARCH_PATHS = @executable_path/Frameworks
+LD_RUNPATH_SEARCH_PATHS[sdk=macosx*] = @executable_path/../Frameworks
+
+// Asset Catalog Compiler - Options
+ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon
+ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor
+
+// Signing
+CODE_SIGN_STYLE = Automatic
+ENABLE_HARDENED_RUNTIME = YES

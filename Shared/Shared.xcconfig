@@ -17,6 +17,9 @@ COPY_PHASE_STRIP = NO
 // Linking
 WARNING_CFLAGS = $(inherited) -Weverything -Wno-objc-missing-property-synthesis -Wno-gnu -Wno-incomplete-module -Rno-module-build -Wno-cstring-format-directive
 
+// Localization
+SWIFT_EMIT_LOC_STRINGS = YES
+
 // Packaging
 PRODUCT_NAME = $(TARGET_NAME)
 
