@@ -5,6 +5,9 @@
 SDKROOT = iphoneos
 // Setting this at the project level prevents the build products from not being found (being red in the source list)
 
+// Build Options
+ENABLE_USER_SCRIPT_SANDBOXING = YES
+
 // Code Signing
 CODE_SIGN_IDENTITY[sdk=iphoneos*] = iPhone Developer
 CODE_SIGN_IDENTITY[sdk=macosx*] = Mac Developer
@@ -18,6 +21,7 @@ COPY_PHASE_STRIP = NO
 WARNING_CFLAGS = $(inherited) -Weverything -Wno-objc-missing-property-synthesis -Wno-gnu -Wno-incomplete-module -Rno-module-build -Wno-cstring-format-directive
 
 // Localization
+LOCALIZATION_PREFERS_STRING_CATALOGS = YES
 SWIFT_EMIT_LOC_STRINGS = YES
 
 // Packaging
